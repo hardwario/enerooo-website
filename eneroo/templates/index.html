@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <header>
+        <div class="header">
+            <a href=""><img class="logo" src="images/eneroo-logo-pos.svg" alt="Logo Eneroo"></a>
+            <a href="#contact"><button>KONTAKTUJTE NÁS</button></a>
+        </div>
+    </header>
+
+    <div class="article">
+        <section>
+            <h1>Revoluce v komunitní energetice. Přinášíme chytrá řešení pro panelové a bytové domy s využitím IoT technologií a solární energie.</h1>
+            <h3>O společnosti ENEROOO</h3>
+            <p>Na český trh přichází zcela nová společnost ENEROOO, která se zaměří na inovativní smart řešení v oblasti energetiky pro panelové a bytové domy. Cílem je modernizovat systémy řízení energií, což umožní úspory a efektivní využití energií.</p>
+        </section>
+
+        <section>
+            <img src="images/eneroo-logo-pos.svg" alt="Logo Eneroo">
+        </section>
+
+        <section>
+            {% for drop_down in config.extra.drop_down %}
+            <div class="drop_down">
+                <details>                  
+                    <summary>
+                        <h4 class="drop_down_header">
+                            <span class="title_text">{{ drop_down.title }}</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </h4>  
+                    </summary>
+                    <div class="drop_down_body">
+                        <ul>
+                            {% for item in drop_down.description %}
+                                <li>{{ item | safe }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </details>
+            </div>
+            {% endfor %}
+        </section>
+
+        <section class="contact">
+
+                <form action="" method="POST" class="contact-form" id="contact">
+                    <div class="input">
+                        <label for="name">Jméno</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="input">
+                        <label for="surname">Příjmení</label>
+                        <input type="text" id="surname" name="surname" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <button type="submit">Odeslat</button>
+                </form>
+
+            <img class="eneroo_img" src="images/Eneroo.webp" alt="Eneroo">
+        </section>
+    </div>
+
+</div>
+
+
+{% endblock %}
