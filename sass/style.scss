@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-    .contact-form {
+    .contact_form {
         margin-bottom: 25px;
         margin-right: auto;
         margin-left: auto;
@@ -18,7 +18,7 @@
         gap: 25px;
     }
 
-    .contact-form {
+    .contact_form {
         width: 50%;
     }  
 
@@ -103,21 +103,37 @@ p {
 }
 
 .drop_down {
-
     border: 1px solid #999999;
     background-color: rgba(20, 160, 192, 0.1);
     border-radius: 25px;
-    padding: 0px 30px;
     font-size: 1.5rem;
     cursor: pointer;
     position: relative;
-    margin:25px 0;
+    margin: 25px 0;
+    transition: border-color 0.3s ease;
+}
+
+.drop_down summary {
+    display: block;
+    padding: 5px; /* Consistent padding */
+    border-radius: 25px; /* Matches the main border */
+    cursor: pointer;
+    margin: -1px;
+}
+
+
+.drop_down_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
 }
 
 
 .drop_down_body {
     padding-top: 0;
     font-size: 1.2rem;
+    padding-left: 30px;
 }
 
 .drop_down_body > ul {
@@ -150,12 +166,6 @@ summary {
     list-style: none;
 }
 
-.drop_down_header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .drop_down:first-of-type .drop_down_body ul {
     list-style-type: none;
     line-height: 4rem;
@@ -165,7 +175,7 @@ summary {
     align-items: center;
 }
 
-.contact-form {
+.contact_form {
     display: flex;
     flex-direction: column;
     padding: 40px 30px;
@@ -175,8 +185,8 @@ summary {
     height: auto;
 }
 
-.contact-form input,
-.contact-form textarea {
+.contact_form input,
+.contact_form textarea {
     padding-left: 20px;
     border: 1px solid #999999;
     background-color: rgba(20, 160, 192, 0.1);
@@ -210,13 +220,16 @@ footer {
 }
 .legal > a {
     color: white;
-
+    padding: 5px;
     font-weight: 400;
     line-height: 2rem;
     font-size: 1.2rem;
     text-decoration: none;
 }
 
+.legal > p {
+    padding: 5px;
+}
 .social-icons {
     display: flex;
     gap: 15px;
