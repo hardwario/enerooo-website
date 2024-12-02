@@ -1,4 +1,31 @@
 @media (max-width: 768px) {
+    .logo {
+        width: 200px;
+        height: 80px;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    p {
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    button {
+        font-weight: 500;
+        padding-right: 15px;
+        padding-left: 15px;
+        height: 40px;
+    }
+
     .contact_form {
         margin-bottom: 25px;
         margin-right: auto;
@@ -10,9 +37,40 @@
         display: block;
         margin: 0 auto; 
     }
+
+    .drop_down_header {
+        padding: 0px 10px;
+    }
 }
 
 @media (min-width: 768px) {
+    .logo {
+        width: 300px;
+        height: 80px;
+    }
+
+    button {
+        font-weight: 600;
+        padding-right: 15px;
+        padding-left: 15px;
+        height: 50px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+    p {
+        line-height: 2rem;
+        font-size: 1.2rem;
+    }
+
     .contact {
         display: flex;
         gap: 25px;
@@ -24,6 +82,14 @@
 
     .eneroo_img {
         width: 50%;
+    }
+
+    .drop_down:first-of-type .drop_down_body ul {
+        line-height: 4rem;
+    }
+
+    .drop_down_header {
+        padding: 0px 30px;
     }
 }   
 
@@ -55,6 +121,7 @@ section:last-child {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 25px;
 }
 
 .header {
@@ -64,6 +131,7 @@ section:last-child {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    padding: 0 25px;
 }
 
 button {
@@ -71,26 +139,6 @@ button {
     border-radius: 25px;
     background-color: rgba(20, 160, 192,);
     color: white;
-    font-weight: 600;
-    padding-right: 15px;
-    padding-left: 15px;
-    height: 50px;
-
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 2.5rem;
-}
-
-h3 {
-    font-weight: 600;
-    font-size: 2rem;
-}
-
-p {
-    line-height: 2rem;
-    font-size: 1.2rem;
 }
 
 .logo {
@@ -98,8 +146,6 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    width: 300px;
-    height: 80px;
 }
 
 .drop_down {
@@ -126,7 +172,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 30px;
 }
 
 
@@ -168,7 +213,6 @@ summary {
 
 .drop_down:first-of-type .drop_down_body ul {
     list-style-type: none;
-    line-height: 4rem;
 }
 
 .contact {
