@@ -40,6 +40,7 @@
 
     .drop_down_header {
         padding: 0px 10px;
+        font-size: 1rem;
     }
 }
 
@@ -90,6 +91,11 @@
 
     .drop_down_header {
         padding: 0px 30px;
+        font-size: 1.5rem;
+    }
+
+    .drop_down_body {
+        font-size: 1.2rem;
     }
 }   
 
@@ -157,7 +163,6 @@ button:hover {
     border: 1px solid #999999;
     background-color: rgba(247, 249, 252, 1);
     border-radius: 25px;
-    font-size: 1.5rem;
     cursor: pointer;
     position: relative;
     margin: 25px 0;
@@ -179,11 +184,8 @@ button:hover {
     justify-content: space-between;
 }
 
-
 .drop_down_body {
-    padding-top: 0;
-    font-size: 1.2rem;
-    padding-left: 30px;
+    padding: 0 30px
 }
 
 .drop_down_body > ul {
