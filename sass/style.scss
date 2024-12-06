@@ -141,6 +141,11 @@ button {
     color: white;
 }
 
+button:hover {
+    background-color: rgba(20, 160, 192, 0.5);
+}
+
+
 .logo {
     vertical-align: middle;
     background-repeat: no-repeat;
@@ -150,7 +155,7 @@ button {
 
 .drop_down {
     border: 1px solid #999999;
-    background-color: rgba(20, 160, 192, 0.1);
+    background-color: rgba(247, 249, 252, 1);
     border-radius: 25px;
     font-size: 1.5rem;
     cursor: pointer;
@@ -211,6 +216,14 @@ summary {
     list-style: none;
 }
 
+details .fas {
+    transition: transform 0.3s ease;
+}
+
+details[open] .fas {
+    transform: rotate(180deg);
+}
+
 .drop_down:first-of-type .drop_down_body ul {
     list-style-type: none;
 }
@@ -233,7 +246,7 @@ summary {
 .contact_form textarea {
     padding-left: 20px;
     border: 1px solid #999999;
-    background-color: rgba(20, 160, 192, 0.1);
+    background-color: rgba(247, 249, 252, 1);
     border-radius: 25px;
     height: 50px;
     font-size: 1.2rem;
