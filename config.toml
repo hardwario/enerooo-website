@@ -20,9 +20,9 @@ highlight_code = true
 [[extra.drop_down]]
 title= "Kdo tvoří příběh ENEROOO"
 description= [
-        "<strong>HARDWARIO</strong>: - Kompletní dodávka hardwaru a řídicího systému", 
-        "<strong>Evolwings</strong>: - Cloudové služby a vizualizace dat", 
-        "<strong>Voltamyt</strong>: - Referenční montáže a budování montážní sítě",
+        "<strong>HARDWARIO</strong> - Kompletní dodávka hardwaru a řídicího systému", 
+        "<strong>Evolwings</strong> - Cloudové služby a vizualizace dat", 
+        "<strong>Voltamyt</strong> - Referenční montáže a budování montážní sítě",
 ]
 
 [[extra.drop_down]]
@@ -36,7 +36,7 @@ description= [
 [[extra.drop_down]]
 title= "Chytré technologie v akci"
 description= [
-        "<strong>Odepínátelné zásuvky řízené výkonem solárního systému</strong>", 
+        "<strong>Odepínatelné zásuvky řízené výkonem solárního systému</strong>", 
         "<strong>Termostatické hlavice s dálkovým nastavením</strong>", 
         "<strong>Reálný čas odečtu energíí</strong>",
 ]
