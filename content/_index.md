@@ -1,4 +1,4 @@
 +++
-title = "Eneroo"
+title = "Enerooo"
 template = "index.html"
 +++
