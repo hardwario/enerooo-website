@@ -8,7 +8,7 @@
         font-weight: 600;
         font-size: 2rem;
     }
-    
+
     h2 {
         font-weight: 500;
         font-size: 1.5rem;
@@ -19,6 +19,10 @@
         font-size: 1rem;
     }
 
+    .contact {
+        flex-direction: column;
+    }
+
     button {
         font-weight: 500;
         padding-right: 15px;
@@ -26,16 +30,11 @@
         height: 40px;
     }
 
-    .contact_form {
-        margin-bottom: 25px;
-        margin-right: auto;
-        margin-left: auto;
-    }  
     .enerooo_img {
-        height: auto; 
-        max-width: 100%; 
+        height: auto;
+        max-width: 100%;
         display: block;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
 
     .drop_down_header {
@@ -61,7 +60,7 @@
         font-weight: 700;
         font-size: 2.5rem;
     }
-    
+
     h2 {
         font-weight: 600;
         font-size: 2rem;
@@ -73,16 +72,11 @@
     }
 
     .contact {
-        display: flex;
-        gap: 25px;
+        flex-direction: row;
     }
 
-    .contact_form {
-        width: 50%;
-    }  
-
     .enerooo_img {
-        width: 50%;
+        max-width: 50%;
     }
 
     .drop_down:first-of-type .drop_down_body ul {
@@ -97,22 +91,19 @@
     .drop_down_body {
         font-size: 1.2rem;
     }
-}   
+}
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-
     font-family: 'Poppins', sans-serif;
     color: #00171F;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    display: flex;
-    flex-direction: column;
 }
 
 section {
@@ -123,7 +114,19 @@ section:last-child {
     margin-bottom: 60px;
 }
 
-.article {
+.contact {
+    display: flex;
+    gap: 25px;
+}
+
+.contact_form {
+    padding: 40px 30px;
+    border: 1px solid #999999;
+    border-radius: 25px;
+    flex-grow: 1;
+}
+
+.container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -171,8 +174,10 @@ button:hover {
 
 .drop_down summary {
     display: block;
-    padding: 5px; /* Consistent padding */
-    border-radius: 25px; /* Matches the main border */
+    padding: 5px;
+    /* Consistent padding */
+    border-radius: 25px;
+    /* Matches the main border */
     cursor: pointer;
     margin: -1px;
 }
@@ -188,7 +193,7 @@ button:hover {
     padding: 0 30px
 }
 
-.drop_down_body > ul {
+.drop_down_body>ul {
     padding-inline-start: 20px;
 }
 
@@ -202,6 +207,7 @@ details[open] .drop_down_body {
         transform: translateY(-10%);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
@@ -230,32 +236,9 @@ details[open] .fas {
     list-style-type: none;
 }
 
-.contact {
-    align-items: center;
-}
-
-.contact_form {
-    display: flex;
-    flex-direction: column;
-    padding: 40px 30px;
-    border: 1px solid #999999;
-    border-radius: 25px;
-    gap: 40px;
-    height: auto;
-}
-
-.contact_form input,
-.contact_form textarea {
-    padding-left: 20px;
-    border: 1px solid #999999;
-    background-color: rgba(247, 249, 252, 1);
-    border-radius: 25px;
-    height: 50px;
-    font-size: 1.2rem;
-}
-
 .enerooo_img {
     object-fit: contain;
+    border-radius: 25px;
 }
 
 .input {
@@ -277,7 +260,8 @@ footer {
     line-height: 1.5;
     padding-bottom: 40px;
 }
-.legal > a {
+
+.legal>a {
     color: white;
     padding: 5px;
     font-weight: 400;
@@ -286,17 +270,18 @@ footer {
     text-decoration: none;
 }
 
-.legal > p {
+.legal>p {
     padding: 5px;
 }
+
 .social-icons {
     display: flex;
     gap: 15px;
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 40px;
-}   
-    
+}
+
 
 .social-icons a {
     text-decoration: none;
@@ -317,4 +302,3 @@ footer {
     color: rgba(20, 160, 192, 0.5);
     border-color: rgba(20, 160, 192, 0.5);
 }
-
