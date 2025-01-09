@@ -23,11 +23,20 @@
         flex-direction: column;
     }
 
+    .header {
+        flex-direction: column;
+    }
+
+    .contact_button {
+        width: 100%;
+    }
+
     button {
         font-weight: 500;
         padding-right: 15px;
         padding-left: 15px;
         height: 40px;
+        width: 100%;
     }
 
     .enerooo_img {
@@ -40,6 +49,12 @@
     .drop_down_header {
         padding: 0px 10px;
         font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 880px) {
+    .enerooo_img {
+        margin: 25px;
     }
 }
 
