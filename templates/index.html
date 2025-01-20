@@ -20,17 +20,19 @@
     <h2>Přehled našeho řešení</h2>
     <p>Detailní přehled toho, co vám Enerooo může nabídnout.</p>
     <div class="ilustration_wrapper">
-        <img class="image" src="images/Dum.svg" alt="Model domu">
+        <img class="image" src="images/Dum.webp" alt="Model domu">
         <div>
-        {% for ilustration_wrapper in config.extra.description_list %}
-        <div class="description_item">
-            <div class="description_text">
-                <img class="number" src="{{ ilustration_wrapper.number }}" alt="{{ ilustration_wrapper.number_alt }}">
-                <p>{{ ilustration_wrapper.description }}</p>
+            {% for ilustration_wrapper in config.extra.description_list %}
+            <div class="description_item">
+                <div class="description_text">
+                    <img class="number" src="{{ ilustration_wrapper.number }}"
+                        alt="{{ ilustration_wrapper.number_alt }}">
+                    <p>{{ ilustration_wrapper.description }}</p>
+                </div>
+                <img class="ilustration_wrapper_image" src="{{ ilustration_wrapper.image }}"
+                    alt="{{ ilustration_wrapper.alt }}">
             </div>
-            <img class="ilustration_wrapper_image" src="{{ ilustration_wrapper.image }}" alt="{{ ilustration_wrapper.alt }}">
-        </div>
-        {% endfor %}
+            {% endfor %}
         </div>
     </div>
     <div class="description_wrapper">
@@ -38,26 +40,31 @@
         <div class="description_text">
             <img class="number" src="{{ description_wrapper.number }}" alt="{{ description_wrapper.number_alt }}">
 
-                    <p class="description_header">{{ description_wrapper.header }}</p>
-                    
-                    {% if description_wrapper.code | length > 0 %}
-                    <p class="code">
-                        {% for c in description_wrapper.code %}
-                            <span class="code-item">{{ c }}</span>
-                        {% endfor %}
-                    </p>
-                    {% endif %}
+            <p class="description_header">{{ description_wrapper.header }}</p>
+
+            {% if description_wrapper.code | length > 0 %}
+            <p class="code">
+                {% for c in description_wrapper.code %}
+                <span class="code-item">{{ c }}</span>
+                {% endfor %}
+            </p>
+            {% endif %}
         </div>
         <p class="description">{{ description_wrapper.description }}</p>
 
         {% endfor %}
-    </div>    
+    </div>
 </section>
 
 <section>
     <h2>Přehledná správa energie na jednom místě</h2>
     <div class="img_text">
-        <p>Mobilní a webová aplikace Enerooo vám poskytují kompletní přehled o spotřebě energie a teplotě u vás doma. Sledujte data v reálném čase, porovnávejte spotřebu za měsíc, rok nebo jiné období a využijte přehledné grafy, které vám lépe ukážou, kdy jste měli nejvyšší spotřebu. Všechny informace se bezpečně ukládají do Enerooo Cloudu, takže k nim máte přístup kdykoliv a odkudkoliv. Aplikace vám navíc umožní ovládat chytré zásuvky, vytápění a další prvky vaší domácnosti, vše intuitivně a pohodlně přímo z vašeho telefonu nebo počítače.</p>
+        <p>Mobilní a webová aplikace Enerooo vám poskytují kompletní přehled o spotřebě energie a teplotě u vás doma.
+            Sledujte data v reálném čase, porovnávejte spotřebu za měsíc, rok nebo jiné období a využijte přehledné
+            grafy, které vám lépe ukážou, kdy jste měli nejvyšší spotřebu. Všechny informace se bezpečně ukládají do
+            Enerooo Cloudu, takže k nim máte přístup kdykoliv a odkudkoliv. Aplikace vám navíc umožní ovládat chytré
+            zásuvky, vytápění a další prvky vaší domácnosti, vše intuitivně a pohodlně přímo z vašeho telefonu nebo
+            počítače.</p>
         <img class="image" src="images/phone_app.webp" alt="Mobilní aplikace">
     </div>
 </section>
