@@ -21,63 +21,63 @@ highlight_code = true
 number = "images/1.svg"
 number_alt = "Číslo 1"
 description = "Řídící jednotka"
-image = "images/ridici_jednotka.png"
+image = "images/ridici-jednotka.webp"
 alt = "Řídící jednotka"
 
 [[extra.description_list]]
 number = "images/2.svg"
 number_alt = "Číslo 2"
 description = "Digitální elektroměr"
-image = "images/digitalni_elektromer.png"
+image = "images/digitalni-elektromer.webp"
 alt = "Digitální elektroměr"
 
 [[extra.description_list]]
 number = "images/3.svg"
 number_alt = "Číslo 3"
 description = "Teplotní senzor"
-image = "images/teplotni_cidlo.png"
+image = "images/teplotni-cidlo.webp"
 alt = "Teplotní senzor"
 
 [[extra.description_list]]
 number = "images/4.svg"
 number_alt = "Číslo 4"
 description = "Termostatická hlavice"
-image = "images/termostaticka_hlavice.png"
+image = "images/termostaticka-hlavice.webp"
 alt = "Termostatická hlavice"
 
 [[extra.description_list]]
 number = "images/5.svg"
 number_alt = "Číslo 5"
 description = "Chytrá zásuvka"
-image = "images/chytre_zasuvky.png"
+image = "images/chytre-zasuvky.webp"
 alt = "Chytrá zásuvka"
 
 [[extra.description_list]]
 number = "images/6.svg"
 number_alt = "Číslo 6"
 description = "Rádiová brána"
-image = "images/radiova_brana.png"
+image = "images/radiova-brana.webp"
 alt = "Rádiová brána"
 
 [[extra.description_list]]
 number = "images/7.svg"
 number_alt = "Číslo 7"
 description = "Fotovoltaické panely"
-image = "images/panel.png"
+image = "images/panel.webp"
 alt = "Fotovoltaické panely"
 
 [[extra.description_list]]
 number = "images/8.svg"
 number_alt = "Číslo 8"
 description = "Solární invertor"
-image = "images/invertor.png"
+image = "images/invertor.webp"
 alt = "Solární invertor"
 
 [[extra.description_list]]
 number = "images/9.svg"
 number_alt = "Číslo 9"
 description = "Centrální bojler"
-image = "images/centralni_boiler.png"
+image = "images/centralni-boiler.webp"
 alt = "Centrální bojler"
 
 
