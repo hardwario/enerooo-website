@@ -111,8 +111,14 @@
         flex-direction: row;
     }
 
+    .contact_form {
+        max-width: 50%;
+    }
+
     .enerooo_img {
         max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .drop_down:first-of-type .drop_down_body ul {
@@ -289,7 +295,8 @@ details[open] .fas {
 
 .enerooo_img {
     object-fit: contain;
-    border-radius: 25px;
+
+    max-height: 750px;
 }
 
 .input {
