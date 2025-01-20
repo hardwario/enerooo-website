@@ -22,17 +22,17 @@
     <div class="ilustration_wrapper">
         <img class="image" src="images/Dum.webp" alt="Model domu">
         <div>
-            {% for ilustration_wrapper in config.extra.description_list %}
-            <div class="description_item">
-                <div class="description_text">
-                    <img class="number" src="{{ ilustration_wrapper.number }}"
-                        alt="{{ ilustration_wrapper.number_alt }}">
-                    <p>{{ ilustration_wrapper.description }}</p>
-                </div>
-                <img class="ilustration_wrapper_image" src="{{ ilustration_wrapper.image }}"
-                    alt="{{ ilustration_wrapper.alt }}">
+        {% for ilustration_wrapper in config.extra.description_list %}
+        <div class="description_item">
+            <div class="description_text">
+                <img class="number" src="{{ ilustration_wrapper.number }}" alt="{{ ilustration_wrapper.number_alt }}">
+                <p>{{ ilustration_wrapper.description }}</p>
             </div>
-            {% endfor %}
+            <div class="wrapper_image">
+            <img class="ilustration_wrapper_image" src="{{ ilustration_wrapper.image }}" alt="{{ ilustration_wrapper.alt }}">
+         </div>
+        </div>
+        {% endfor %}
         </div>
     </div>
     <div class="description_wrapper">
