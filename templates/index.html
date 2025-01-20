@@ -20,7 +20,8 @@
     <h2>Přehled našeho řešení</h2>
     <p>Detailní přehled toho, co vám Enerooo může nabídnout.</p>
     <div class="ilustration_wrapper">
-        <img class="image" src="images/Dum.webp" alt="Model domu">
+        {{ load_data(path="images/Dum.svg") | safe}}
+        <!--<img class="image" src="images/Dum.webp" alt="Model domu">-->
         <div>
         {% for ilustration_wrapper in config.extra.description_list %}
         <div class="description_item">
