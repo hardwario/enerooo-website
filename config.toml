@@ -17,6 +17,134 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 
+[[extra.description_list]]
+number = "images/1.svg"
+number_alt = "Číslo 1"
+description = "Řídící jednotka"
+image = "images/ridici_jednotka.png"
+alt = "Řídící jednotka"
+
+[[extra.description_list]]
+number = "images/2.svg"
+number_alt = "Číslo 2"
+description = "Digitální elektroměr"
+image = "images/digitalni_elektromer.png"
+alt = "Digitální elektroměr"
+
+[[extra.description_list]]
+number = "images/3.svg"
+number_alt = "Číslo 3"
+description = "Teplotní senzor"
+image = "images/teplotni_cidlo.png"
+alt = "Teplotní senzor"
+
+[[extra.description_list]]
+number = "images/4.svg"
+number_alt = "Číslo 4"
+description = "Termostatická hlavice"
+image = "images/termostaticka_hlavice.png"
+alt = "Termostatická hlavice"
+
+[[extra.description_list]]
+number = "images/5.svg"
+number_alt = "Číslo 5"
+description = "Chytrá zásuvka"
+image = "images/chytre_zasuvky.png"
+alt = "Chytrá zásuvka"
+
+[[extra.description_list]]
+number = "images/6.svg"
+number_alt = "Číslo 6"
+description = "Rádiová brána"
+image = "images/radiova_brana.png"
+alt = "Rádiová brána"
+
+[[extra.description_list]]
+number = "images/7.svg"
+number_alt = "Číslo 7"
+description = "Fotovoltaické panely"
+image = "images/panel.png"
+alt = "Fotovoltaické panely"
+
+[[extra.description_list]]
+number = "images/8.svg"
+number_alt = "Číslo 8"
+description = "Solární invertor"
+image = "images/invertor.png"
+alt = "Solární invertor"
+
+[[extra.description_list]]
+number = "images/9.svg"
+number_alt = "Číslo 9"
+description = "Centrální bojler"
+image = "images/centralni_boiler.png"
+alt = "Centrální bojler"
+
+
+[[extra.description]]
+number = "images/1.svg"
+number_alt = "Číslo 1"
+header = "Řídící jednotka"
+code = ["ER10E"]  # Použití seznamu s jedním prvkem
+description = "Řídicí jednotka synchronizuje všechna zařízení systému ENEROOO pro maximální efektivitu. Připojuje se do ENEROOO cloudu přes LTE nebo Ethernet a funguje na platformě Linux."
+
+[[extra.description]]
+number = "images/2.svg"
+number_alt = "Číslo 2"
+header = "Digitální elektroměr"
+code = ["ER10M", "ER11M", "ER12M"]  # Seznam více kódů
+description = "Digitální elektroměry měří spotřebu jednotlivých bytů i u hlavního elektroměru domu, což zajišťuje spravedlivé rozdělení nákladů. Data odebírají každou minutu a poskytují přehled o spotřebě v reálném čase."
+
+[[extra.description]]
+number = "images/3.svg"
+number_alt = "Číslo 3"
+header = "Teplotní senzor"
+code = ["ER10H"]
+description = "Kompaktní bezdrátový senzor, který je napájen pomocí dvou AA baterií s životností přibližně dva roky. Komunikuje bezdrátově a je schopen přesně měřit teplotu."
+
+[[extra.description]]
+number = "images/4.svg"
+number_alt = "Číslo 4"
+header = "Termostatická hlavice"
+code = ["ER10T"]
+description = "Bezdrátová termohlavice umožňuje přesné nastavení teploty. Na displeji zobrazuje aktuální hodnoty a lze ji ovládat vzdáleně nebo ručně."
+
+[[extra.description]]
+number = "images/5.svg"
+number_alt = "Číslo 5"
+header = "Chytrá zásuvka"
+code = ["ER10W", "ER11W"]  # Více kódů v seznamu
+description = "Bezdrátová zásuvka umožňuje vzdálené i ruční ovládání. Automaticky se aktivuje při přetocích elektrické energie, což pomáhá optimalizovat spotřebu."
+
+[[extra.description]]
+number = "images/6.svg"
+number_alt = "Číslo 6"
+header = "Rádiová brána"
+code = ["ER10G"]
+description = "LoRaWAN brána spolehlivě sbírá data ze všech zařízení a bytů. Umožňuje snadné rozšíření systému o další prvky a je jednoduchá na instalaci."
+
+[[extra.description]]
+number = "images/7.svg"
+number_alt = "Číslo 7"
+header = "Fotovoltaické panely"
+code = []  # Prázdný seznam, pokud žádný kód není
+description = "Střešní fotovoltaické panely vyrábějí elektřinu, kterou sdílejí všechny bytové jednotky a společné prostory, což snižuje celkové náklady na energie."
+
+[[extra.description]]
+number = "images/8.svg"
+number_alt = "Číslo 8"
+header = "Solární invertor"
+code = []
+description = "Solární invertory převádějí energii z fotovoltaických panelů na střídavý proud, který lze přímo využít v domácnosti. Optimalizují výkon a zajišťují efektivní distribuci energie."
+
+[[extra.description]]
+number = "images/9.svg"
+number_alt = "Číslo 9"
+header = "Centrální bojler"
+code = []
+description = "Centrální ohřev vody využívá přebytky z fotovoltaických panelů, čímž snižuje náklady obyvatel. Zajišťuje chytré řízení teploty a bezdrátovou komunikaci bez rušení ze sítě."
+
+
 [[extra.drop_down]]
 title= "Kdo tvoří příběh ENEROOO"
 description= [
