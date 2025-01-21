@@ -19,10 +19,6 @@
         font-size: 1rem;
     }
 
-    .contact {
-        flex-direction: column;
-    }
-
     .header {
         flex-direction: column;
     }
@@ -111,9 +107,6 @@
         display: flex;
     }
 
-    .contact {
-        flex-direction: row;
-    }
 
     .enerooo_img {
         max-width: 70%;
@@ -171,10 +164,6 @@ section:last-child {
     margin-bottom: 60px;
 }
 
-.contact {
-    display: flex;
-    gap: 25px;
-}
 
 .contact_form {
     padding: 40px 30px;
