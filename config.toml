@@ -21,63 +21,63 @@ highlight_code = true
 number = "images/1.svg"
 number_alt = "Číslo 1"
 description = "Řídící jednotka"
-image = "images/ridici-jednotka.webp"
+image = "images/enerooo-central-unit.webp"
 alt = "Řídící jednotka"
 
 [[extra.description_list]]
 number = "images/2.svg"
 number_alt = "Číslo 2"
 description = "Digitální elektroměr"
-image = "images/digitalni-elektromer.webp"
+image = "images/enerooo-digital-electricity-meter.webp"
 alt = "Digitální elektroměr"
 
 [[extra.description_list]]
 number = "images/3.svg"
 number_alt = "Číslo 3"
 description = "Teplotní senzor"
-image = "images/teplotni-cidlo.webp"
+image = "images/enerooo-temperature-sensor.webp"
 alt = "Teplotní senzor"
 
 [[extra.description_list]]
 number = "images/4.svg"
 number_alt = "Číslo 4"
 description = "Termostatická hlavice"
-image = "images/termostaticka-hlavice.webp"
+image = "images/enerooo-thermostatic-head.webp"
 alt = "Termostatická hlavice"
 
 [[extra.description_list]]
 number = "images/5.svg"
 number_alt = "Číslo 5"
 description = "Chytrá zásuvka"
-image = "images/chytre-zasuvky.webp"
+image = "images/enerooo-smart-socket.webp"
 alt = "Chytrá zásuvka"
 
 [[extra.description_list]]
 number = "images/6.svg"
 number_alt = "Číslo 6"
 description = "Rádiová brána"
-image = "images/radiova-brana.webp"
+image = "images/enerooo-radio-gateway.webp"
 alt = "Rádiová brána"
 
 [[extra.description_list]]
 number = "images/7.svg"
 number_alt = "Číslo 7"
 description = "Fotovoltaické panely"
-image = "images/panel.webp"
+image = "images/enerooo-photovoltaic-panel.webp"
 alt = "Fotovoltaické panely"
 
 [[extra.description_list]]
 number = "images/8.svg"
 number_alt = "Číslo 8"
 description = "Solární invertor"
-image = "images/invertor.webp"
+image = "images/enerooo-solar-invertor.webp"
 alt = "Solární invertor"
 
 [[extra.description_list]]
 number = "images/9.svg"
 number_alt = "Číslo 9"
 description = "Centrální bojler"
-image = "images/centralni-boiler.webp"
+image = "images/enerooo-central-boiler.webp"
 alt = "Centrální bojler"
 
 
@@ -86,63 +86,105 @@ number = "images/1.svg"
 number_alt = "Číslo 1"
 header = "Řídící jednotka"
 code = ["ER10E"]  # Použití seznamu s jedním prvkem
-description = "Řídicí jednotka synchronizuje všechna zařízení systému ENEROOO pro maximální efektivitu. Připojuje se do ENEROOO cloudu přes LTE nebo Ethernet a funguje na platformě Linux."
+description = [
+    "Synchronizace všech zařízení systému",
+    "Připojení přes LTE nebo Ethernet",
+    "Spolehlivý provoz na Linuxu"
+]
 
 [[extra.description]]
 number = "images/2.svg"
 number_alt = "Číslo 2"
 header = "Digitální elektroměr"
 code = ["ER10M", "ER11M", "ER12M"]  # Seznam více kódů
-description = "Digitální elektroměry měří spotřebu jednotlivých bytů i u hlavního elektroměru domu, což zajišťuje spravedlivé rozdělení nákladů. Data odebírají každou minutu a poskytují přehled o spotřebě v reálném čase."
+description = [
+    "Měření spotřeby všech bytů",
+    "Spravedlivé dělení nákladů",
+    "Reálná data každou minutu"
+]
 
 [[extra.description]]
 number = "images/3.svg"
 number_alt = "Číslo 3"
 header = "Teplotní senzor"
 code = ["ER10H"]
-description = "Kompaktní bezdrátový senzor, který je napájen pomocí dvou AA baterií s životností přibližně dva roky. Komunikuje bezdrátově a je schopen přesně měřit teplotu."
+description = [
+    "Měření teploty",
+    "Bezdrátová komunikace",
+    "Životnost 2 roky"
+]
+
 
 [[extra.description]]
 number = "images/4.svg"
 number_alt = "Číslo 4"
 header = "Termostatická hlavice"
 code = ["ER10T"]
-description = "Bezdrátová termohlavice umožňuje přesné nastavení teploty. Na displeji zobrazuje aktuální hodnoty a lze ji ovládat vzdáleně nebo ručně."
+description = [
+    "Bezdrátové nastavení teploty",
+    "Zobrazení hodnot na displeji",
+    "Ruční i vzdálené ovládání"
+]
+
 
 [[extra.description]]
 number = "images/5.svg"
 number_alt = "Číslo 5"
 header = "Chytrá zásuvka"
-code = ["ER10W", "ER11W"]  # Více kódů v seznamu
-description = "Bezdrátová zásuvka umožňuje vzdálené i ruční ovládání. Automaticky se aktivuje při přetocích elektrické energie, což pomáhá optimalizovat spotřebu."
+code = ["ER10W", "ER11W"]
+description = [
+    "Vzdálené ovládání spotřebičů",
+    "Aktivace při přetocích energie"
+]
+
 
 [[extra.description]]
 number = "images/6.svg"
 number_alt = "Číslo 6"
 header = "Rádiová brána"
 code = ["ER10G"]
-description = "LoRaWAN brána spolehlivě sbírá data ze všech zařízení a bytů. Umožňuje snadné rozšíření systému o další prvky a je jednoduchá na instalaci."
+description = [
+    "Sběr dat z bytů",
+    "Snadné rozšíření systému",
+    "Rychlá a jednoduchá instalace"
+]
+
 
 [[extra.description]]
 number = "images/7.svg"
 number_alt = "Číslo 7"
 header = "Fotovoltaické panely"
-code = []  # Prázdný seznam, pokud žádný kód není
-description = "Střešní fotovoltaické panely vyrábějí elektřinu, kterou sdílejí všechny bytové jednotky a společné prostory, což snižuje celkové náklady na energie."
+code = []
+description = [
+    "Výroba elektřiny pro byty",
+    "Sdílení energie jednotkám",
+    "Snížení celkových nákladů"
+]
+
 
 [[extra.description]]
 number = "images/8.svg"
 number_alt = "Číslo 8"
 header = "Solární invertor"
 code = []
-description = "Solární invertory převádějí energii z fotovoltaických panelů na střídavý proud, který lze přímo využít v domácnosti. Optimalizují výkon a zajišťují efektivní distribuci energie."
+description = [
+    "Převod DC na AC energii",
+    "Optimalizace výkonu panelů",
+    "Efektivní distribuce elektřiny"
+]
+
 
 [[extra.description]]
 number = "images/9.svg"
 number_alt = "Číslo 9"
 header = "Centrální bojler"
 code = []
-description = "Centrální ohřev vody využívá přebytky z fotovoltaických panelů, čímž snižuje náklady obyvatel. Zajišťuje chytré řízení teploty a bezdrátovou komunikaci bez rušení ze sítě."
+description = [
+    "Ohřev vody z přebytků",
+    "Chytré a efektivní řízení",
+    "Spolehlivá bezdrátová komunikace"
+]
+
 
 
 [[extra.drop_down]]

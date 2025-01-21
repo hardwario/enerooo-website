@@ -3,13 +3,12 @@
 {% block content %}
 <header>
     <div class="header">
-        <a href=""><img class="logo" src="images/enerooo-logo-pos.svg" alt="Logo Enerooo"></a>
+        <a href=""><img class="logo" src="images/enerooo-logo-pos.svg" alt="Logo ENEROOO"></a>
         <a href="#contact" class="contact_button"><button>KONTAKTUJTE NÁS</button></a>
     </div>
 </header>
 <section>
-    <h1>Revoluce v komunitní energetice. Přinášíme chytrá řešení pro panelové a bytové domy s využitím IoT
-        technologií a solární energie.</h1>
+    <h1>ENEROOO - Revoluce v bytové a domovní energetice</h1>
     <h2>O společnosti ENEROOO</h2>
     <p>Na český trh přichází zcela nová společnost ENEROOO, která se zaměří na inovativní smart řešení v oblasti
         energetiky pro panelové a bytové domy. Cílem je modernizovat systémy řízení energií, což umožní úspory a
@@ -18,9 +17,9 @@
 
 <section>
     <h2>Přehled našeho řešení</h2>
-    <p>Detailní přehled toho, co vám Enerooo může nabídnout.</p>
+    <p>Detailní přehled toho, co vám ENEROOO může nabídnout.</p>
     <div class="ilustration_wrapper">
-        <img class="image" src="images/Dum.webp" alt="Model domu">
+        <img class="image" src="images/Enerooo-house.webp" alt="Model domu">
         <div>
         {% for ilustration_wrapper in config.extra.description_list %}
         <div class="description_item">
@@ -50,8 +49,11 @@
             </p>
             {% endif %}
         </div>
-        <p class="description">{{ description_wrapper.description }}</p>
-
+        <ul class="description">
+            {% for item in description_wrapper.description %}
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
         {% endfor %}
     </div>
 </section>
@@ -59,13 +61,13 @@
 <section>
     <h2>Přehledná správa energie na jednom místě</h2>
     <div class="img_text">
-        <p>Mobilní a webová aplikace Enerooo vám poskytují kompletní přehled o spotřebě energie a teplotě u vás doma.
-            Sledujte data v reálném čase, porovnávejte spotřebu za měsíc, rok nebo jiné období a využijte přehledné
-            grafy, které vám lépe ukážou, kdy jste měli nejvyšší spotřebu. Všechny informace se bezpečně ukládají do
-            Enerooo Cloudu, takže k nim máte přístup kdykoliv a odkudkoliv. Aplikace vám navíc umožní ovládat chytré
-            zásuvky, vytápění a další prvky vaší domácnosti, vše intuitivně a pohodlně přímo z vašeho telefonu nebo
-            počítače.</p>
-        <img class="image" src="images/phone_app.webp" alt="Mobilní aplikace">
+       <ul>
+            <li><strong>Přehled spotřeby energie</strong> – Sledujte aktuální i historická data pomocí přehledných grafů.</li>
+            <li><strong>Ovládání chytrých prvků</strong> – Jednoduše spravujte zásuvky, světla nebo vytápění odkudkoliv.</li>
+            <li><strong>Bezpečné ukládání dat</strong> – Všechny informace jsou bezpečně uložené v ENEROOO Cloudu.</li>
+            <li><strong>Intuitivní ovládání</strong> – Mobilní a webová aplikace nabízí snadné a přehledné rozhraní pro každodenní použití.</li>
+        </ul>
+        <img class="image" src="images/enerooo-mobile-app.webp" alt="Mobilní aplikace">
     </div>
 </section>
 
@@ -102,6 +104,6 @@
             });
         </script>
     </div>
-    <img class="enerooo_img" src="images/topologie.svg" alt="Enerooo">
+    <img class="enerooo_img" src="images/enerooo-topology.webp" alt="ENEROOO">
 </section>
 {% endblock %}
