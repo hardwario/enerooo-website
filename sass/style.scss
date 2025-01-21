@@ -134,10 +134,14 @@
     }
 
     .description_wrapper {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px; 
-        align-items: start; 
-    
+        column-count: 2;
+        column-gap: 40px;
+    }
+
+    .grid_wrapper {
+        break-inside: avoid;
+        margin-bottom: 20px;
+        min-height: 150px;
     }
 
     .img_text {
@@ -421,14 +425,8 @@ footer {
     color: white;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    display: grid;
 }
 
-.grid_wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 .description_header {
     font-weight: bold;
