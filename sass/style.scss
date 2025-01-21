@@ -133,6 +133,13 @@
         align-items: center;
     }
 
+    .description_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px; 
+        align-items: start; 
+    
+    }
+
     .img_text {
         gap: 15px;
     }
@@ -163,7 +170,6 @@ section {
 section:last-child {
     margin-bottom: 60px;
 }
-
 
 .contact_form {
     padding: 40px 30px;
@@ -409,21 +415,30 @@ footer {
     height: 25px;
 }
 
-
 .description_wrapper {
     background-color: #01CC9B;
     padding: 30px;
     color: white;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    display: grid;
+}
+
+.grid_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .description_header {
     font-weight: bold;
+    line-height: 1.2;
 }
 
 .code {
     font-family: 'Inter', sans-serif;
+    font-size: medium;
+    line-height: normal;
 }
 
 .code-item {
@@ -434,10 +449,13 @@ footer {
     padding: 0px 10px;
     margin-right: 5px;
     font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .description {
     padding-left: 40px;
+    margin-bottom: 0px;
 }
 
 .img_text {

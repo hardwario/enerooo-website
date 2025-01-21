@@ -35,7 +35,9 @@
         </div>
     </div>
     <div class="description_wrapper">
+
         {% for description_wrapper in config.extra.description %}
+    <div class="grid_wrapper">
         <div class="description_text">
             <img class="number" src="{{ description_wrapper.number }}" alt="{{ description_wrapper.number_alt }}">
 
@@ -49,12 +51,15 @@
             </p>
             {% endif %}
         </div>
+
         <ul class="description">
             {% for item in description_wrapper.description %}
                 <li>{{ item }}</li>
             {% endfor %}
         </ul>
+    </div>
         {% endfor %}
+
     </div>
 </section>
 
