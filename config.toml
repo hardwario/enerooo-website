@@ -198,15 +198,43 @@ description= [
 [[extra.drop_down]]
 title= "Proč si vybrat ENEROOO?"
 description= [
-        "<strong>Úspora až 20 % nákladů na energii díky kombinaci solární energie a IoT technologií</strong>", 
-        "<strong>Bezdrátové IoT sítě pro chytré řízení energetických zařízení</strong>", 
-        "<strong>Reálný čas odečtu spotřeby pro větší kontrolu nad náklady</strong>",
+        "Úspora až 20 % nákladů na energii díky kombinaci solární energie a IoT technologií", 
+        "Bezdrátové IoT sítě pro chytré řízení energetických zařízení", 
+        "Reálný čas odečtu spotřeby pro větší kontrolu nad náklady",
 ]
 
 [[extra.drop_down]]
 title= "Chytré technologie v akci"
 description= [
-        "<strong>Odepínatelné zásuvky řízené výkonem solárního systému</strong>", 
-        "<strong>Termostatické hlavice s dálkovým nastavením</strong>", 
-        "<strong>Reálný čas odečtu energíí</strong>",
+        "Odepínatelné zásuvky řízené výkonem solárního systému", 
+        "Termostatické hlavice s dálkovým nastavením", 
+        "Reálný čas odečtu energíí",
+]
+
+[[extra.drop_down]]
+title= "Jaká řešení nabízíte pro bytové domy?"
+description= [
+        "Navrhujeme IoT systémy na míru pro řízení fotovoltaiky.", 
+        "Zajišťujeme monitoring a správu spotřeby energie.",
+]
+
+[[extra.drop_down]]
+title= "Pomáháte s optimalizací spotřeby energie?"
+description= [
+        "Poskytujeme přehled spotřeby v reálném čase.", 
+        "Umožňujeme efektivní řízení vytápění, světel a dalších prvků.", 
+]
+
+[[extra.drop_down]]
+title= "Je možné integrovat bateriová úložiště?"
+description= [
+        "Ano, fotovoltaiku lze propojit s bateriovými úložišti.", 
+        "Nabízíme plné řízení a správu uložené energie.", 
+]
+
+[[extra.drop_down]]
+title= "Jak je zajištěno spravedlivé měření?"
+description= [
+        "Každý uživatel má přehled o své vlastní spotřebě.", 
+        "Spotřeba je spravedlivě měřena díky přesným digitálním elektroměrům.", 
 ]
