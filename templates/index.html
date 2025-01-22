@@ -8,7 +8,7 @@
     </div>
 </header>
 <section>
-    <h1>ENEROOO - Revoluce v bytové a domovní energetice</h1>
+    <h1>Revoluce v bytové a domovní energetice</h1>
     <h2>O společnosti ENEROOO</h2>
     <p>Na český trh přichází zcela nová společnost ENEROOO, která se zaměří na inovativní smart řešení v oblasti
         energetiky pro panelové a bytové domy. Cílem je modernizovat systémy řízení energií, což umožní úspory a
@@ -16,10 +16,9 @@
 </section>
 
 <section>
-    <h2>Přehled našeho řešení</h2>
-    <p>Detailní přehled toho, co vám ENEROOO může nabídnout.</p>
+    <h2>Systémový koncept</h2>
     <div class="ilustration_wrapper">
-        <img class="image" src="images/Enerooo-house.webp" alt="Model domu">
+        <img class="image" src="images/enerooo-house.webp" alt="Model domu">
         <div>
         {% for ilustration_wrapper in config.extra.description_list %}
         <div class="description_item">
@@ -64,15 +63,25 @@
 </section>
 
 <section>
-
+    <h2>Přehledná správa energie na jednom místě</h2>
     <div class="img_text">
         <div>
-            <h2>Přehledná správa energie na jednom místě</h2>
-            <ul>
-                <li><strong>Přehled spotřeby energie</strong> – Sledujte aktuální i historická data pomocí přehledných grafů.</li>
-                <li><strong>Ovládání chytrých prvků</strong> – Jednoduše spravujte zásuvky, světla nebo vytápění odkudkoliv.</li>
-                <li><strong>Bezpečné ukládání dat</strong> – Všechny informace jsou bezpečně uložené v ENEROOO Cloudu.</li>
-                <li><strong>Intuitivní ovládání</strong> – Mobilní a webová aplikace nabízí snadné a přehledné rozhraní pro každodenní použití.</li>
+            <h3>Přehled spotřeby energie</h3>
+            <ul class="circle">
+                <li>Sledujte aktuální i historická data pomocí přehledných grafů.
+                </li>
+            </ul>
+            <h3>Ovládání chytrých prvků</h3>
+            <ul class="circle">
+                <li>Jednoduše spravujte zásuvky, světla nebo vytápění odkudkoliv.</li>
+            </ul>
+            <h3>Bezpečné ukládání dat</h3>
+            <ul class="circle">
+                <li>Všechny informace jsou bezpečně uložené v ENEROOO Cloudu.</li>
+            </ul>
+            <h3>Intuitivní ovládání</h3>
+            <ul class="circle">
+                <li>Mobilní a webová aplikace nabízí snadné a přehledné rozhraní pro každodenní použití.</li>
             </ul>
         </div>
         <img class="image" src="images/enerooo-mobile-app.webp" alt="Mobilní aplikace">
@@ -83,6 +92,19 @@
     <h2>Topologie našeho systému</h2>
     <div class="topology">
         <img class="enerooo_img" src="images/enerooo-topology.webp" alt="ENEROOO Topology">
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Jste potenciální zájemce či montážní partner? Kontaktujte nás!</h2>
+    <div class="contact_form">
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+        <script>
+            hbspt.forms.create({
+                portalId: "5453210",
+                formId: "009d9d94-6f67-40b5-bf85-42fe0815ea52"
+            });
+        </script>
     </div>
 </section>
 
@@ -107,18 +129,5 @@
         </details>
     </div>
     {% endfor %}
-</section>
-
-<section class="contact" id="contact">
-    <h2>Jste potenciální zájemce či montážní partner? Kontaktujte nás!</h2>
-    <div class="contact_form">
-        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-        <script>
-            hbspt.forms.create({
-                portalId: "5453210",
-                formId: "009d9d94-6f67-40b5-bf85-42fe0815ea52"
-            });
-        </script>
-    </div>
 </section>
 {% endblock %}
