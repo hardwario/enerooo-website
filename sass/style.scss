@@ -276,9 +276,12 @@ details {
 }
 
 summary {
-
     list-style: none;
 }
+
+details > summary::-webkit-details-marker {
+    display: none;
+  }
 
 details .fas {
     transition: transform 0.3s ease;
@@ -475,4 +478,16 @@ footer {
 
 .none {
     list-style-type: none;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
 }
