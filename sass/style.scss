@@ -230,6 +230,7 @@ button {
     border-radius: 25px;
     background-color: rgb(20, 160, 192);
     color: white;
+    cursor: pointer;
 }
 
 button:hover {
@@ -488,6 +489,10 @@ footer {
 .img_text {
     display: flex;
     align-items: top;
+}
+
+.margin_top {
+    margin-top: 0px;
 }
 
 .img_text_hero {
