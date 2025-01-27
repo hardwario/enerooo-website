@@ -144,7 +144,7 @@ number_alt = "Číslo 6"
 header = "Rádiová brána"
 code = ["ER10G"]
 description = [
-    "Sběr dat z bytů",
+    "Komunikace s rádiovými zařízeními",
     "Snadné rozšíření systému",
     "Rychlá a jednoduchá instalace"
 ]
